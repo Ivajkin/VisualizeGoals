@@ -4,8 +4,11 @@
     "description": "This repository contains code to add image covers to database items, making tasks, goals, backlogs, and systems more visually appealing and interesting. The code utilizes the Notion API to make changes to the database items.",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "dependencies": {
+        "notionapi-agent": "^3.0.0"
+    }
+}
